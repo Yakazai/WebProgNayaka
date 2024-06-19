@@ -1,0 +1,65 @@
+/* ini css */
+
+* {
+  margin: 0;
+}
+
+img {
+  width:400px;
+}
+
+.container {
+  width: 90%;
+  margin: 0px auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.About {
+  text-align: center;
+}
+
+.detail-portofolio {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+#skills {
+  color: blue;
+}
+
+.my-skills {
+  display: flex;
+  gap: 24px;
+  padding: 10px 0px;
+}
+
+@media (max-width: 600px) {
+  #skills {
+    color: red;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  #skills {
+    color: green;
+  }
+}
+
+@media (min-width: 901) {
+  #skills {
+    color: blue;
+  }
+}
+
+#artikel {
+  color: white;
+}
+
+.listskill {
+  text-align: center;
+}
